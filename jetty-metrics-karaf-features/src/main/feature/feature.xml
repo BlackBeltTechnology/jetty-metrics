@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="jetty-metrics-${project.version}"
+    xmlns="http://karaf.apache.org/xmlns/features/v1.5.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.5.0 http://karaf.apache.org/xmlns/features/v1.5.0">
+
+    <feature name="jetty-metrics" version="${project.version}" description="Jetty metrics">
+        <feature dependency="true">pax-jetty</feature>
+        <feature>scr</feature>
+
+        <feature>sling-commons-metrics</feature>
+        <bundle>mvn:io.dropwizard.metrics/metrics-jetty9/${dropwizard-metrics-version}</bundle>
+        <!--bundle>mvn:io.dropwizard.metrics/metrics-core/${dropwizard-metrics-version}</bundle>
+        <bundle>mvn:org.apache.sling/org.apache.sling.commons.metrics/${sling-metrics-version}</bundle-->
+
+        <bundle>mvn:hu.blackbelt/jetty-metrics-impl/${project.version}</bundle>
+    </feature>
+</features>
