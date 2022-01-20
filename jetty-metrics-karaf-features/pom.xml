@@ -14,6 +14,11 @@
     <name>Jetty metrics :: Karaf :: Features</name>
     <description>Jetty metrics karaf features</description>
 
+    <properties>
+        <sign.skip>true</sign.skip>
+    </properties>
+
+
     <build>
         <resources>
             <resource>
