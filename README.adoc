@@ -1,0 +1,16 @@
+= jetty-metrics
+
+image::https://github.com/BlackBeltTechnology/jetty-metrics/actions/workflows/build.yml/badge.svg?branch=develop[link="https://github.com/BlackBeltTechnology/jetty-metrics/actions/workflows/build.yml" float="center"]
+
+== Introduction
+
+This project contains metric collector for karaf's jetty.
+
+== Contributing to the project
+
+Everyone is welcome to contribute to jetty-metrics! As a starter, please read the corresponding link:CONTRIBUTING.adoc[CONTRIBUTING] guide for details!
+
+
+== License
+
+This project is licensed under the https://www.apache.org/licenses/LICENSE-2.0[Apache License 2.0].
