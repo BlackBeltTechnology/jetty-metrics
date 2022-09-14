@@ -8,7 +8,8 @@
         <feature dependency="true">pax-jetty</feature>
         <feature>scr</feature>
 
-        <feature>sling-commons-metrics</feature>
+        <bundle>mvn:io.dropwizard.metrics/metrics-core/3.2.6</bundle>
+        <bundle>mvn:org.apache.sling/org.apache.sling.commons.metrics/${sling-metrics-version}</bundle>
         <bundle>mvn:io.dropwizard.metrics/metrics-jetty9/${dropwizard-metrics-version}</bundle>
         <!--bundle>mvn:io.dropwizard.metrics/metrics-core/${dropwizard-metrics-version}</bundle>
         <bundle>mvn:org.apache.sling/org.apache.sling.commons.metrics/${sling-metrics-version}</bundle-->
