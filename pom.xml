@@ -510,7 +510,6 @@
             </distributionManagement>
         </profile>
 
-
         <profile>
             <id>generate-github-asciidoc-diagrams</id>
 
