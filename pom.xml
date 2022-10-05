@@ -22,7 +22,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <karaf-version>4.3.4</karaf-version>
+        <karaf-version>4.4.1</karaf-version>
 
         <pax-exam-version>4.13.5</pax-exam-version>
 
