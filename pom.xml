@@ -36,7 +36,7 @@
 
         <dropwizard-metrics-version>3.2.6</dropwizard-metrics-version>
         <sling-metrics-version>1.2.6</sling-metrics-version>
-        <jetty-version>9.4.28.v20200408</jetty-version>
+        <jetty-version>11.0.14</jetty-version>
 
         <!-- Code Quality-->
         <sonar-maven-plugin-version>3.9.1.2184</sonar-maven-plugin-version>
