@@ -34,7 +34,7 @@
         <!--dropwizard-metrics-version>4.1.12.1</dropwizard-metrics-version>
         <sling-metrics-version>1.2.8</sling-metrics-version-->
 
-        <dropwizard-metrics-version>3.2.6</dropwizard-metrics-version>
+        <dropwizard-metrics-version>4.2.12</dropwizard-metrics-version>
         <sling-metrics-version>1.2.6</sling-metrics-version>
         <jetty-version>9.4.28.v20200408</jetty-version>
 
