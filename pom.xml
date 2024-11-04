@@ -29,6 +29,7 @@
         <!--suppress UnresolvedMavenProperty -->
         <logback-test-config>${maven.multiModuleProjectDirectory}/logback-test.xml</logback-test-config>
         <logback-version>1.5.12</logback-version>
+        <lombok-version>1.18.34</lombok-version>
 
         <surefire-version>3.5.1</surefire-version>
 
@@ -328,7 +329,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.22</version>
+            <version>${lombok-version}</version>
             <scope>provided</scope>
         </dependency>
 
