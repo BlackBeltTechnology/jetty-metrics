@@ -27,6 +27,7 @@
     <feature name="jetty-metrics" version="${project.version}" description="Jetty metrics">
         <feature dependency="true">pax-jetty</feature>
         <feature>scr</feature>
+        <feature>http</feature>
 
         <bundle>mvn:io.dropwizard.metrics/metrics-core/3.2.6</bundle>
         <bundle>mvn:org.apache.sling/org.apache.sling.commons.metrics/${sling-metrics-version}</bundle>
