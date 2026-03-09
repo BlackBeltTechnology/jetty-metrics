@@ -1,0 +1,29 @@
+# Jetty Metrics
+
+> An OSGi component that instruments Apache Karaf's embedded Jetty server with Dropwizard Metrics, capturing request rates, response times, and status code distributions.
+
+Key facts:
+- Java 21, Maven multi-module project (2 modules)
+- OSGi Declarative Services with maven-bundle-plugin for bundle packaging
+- Dropwizard Metrics 3.2.6 (metrics-jetty9) for HTTP handler instrumentation
+- Apache Sling Commons Metrics 1.2.6 for MetricRegistry integration
+- Jetty 9.4.x (provided by Apache Karaf 4.4.7)
+- Karaf feature packaging for one-step deployment
+- License: Apache 2.0
+
+## Docs
+
+- [README.md](README.md): Project overview, architecture diagrams, build and deployment instructions
+- [AGENTS.md](AGENTS.md): Developer guide with build commands, module details, and coding conventions
+- [CONTRIBUTING.md](CONTRIBUTING.md): Development setup, issue reporting, and pull request guidelines
+
+## Modules
+
+- [jetty-metrics-impl/pom.xml](jetty-metrics-impl/pom.xml): OSGi bundle containing JettyConfigurator — the component that wraps Jetty's handler with Dropwizard's InstrumentedHandler
+- [jetty-metrics-karaf-features/src/main/feature/feature.xml](jetty-metrics-karaf-features/src/main/feature/feature.xml): Karaf feature descriptor bundling metrics-core, metrics-jetty9, sling-commons-metrics, and the impl bundle
+
+## Optional
+
+- [.github/workflows/build.yml](.github/workflows/build.yml): CI build pipeline
+- [.github/CIFLOW.md](.github/CIFLOW.md): CI/CD pipeline and GitFlow branching documentation
+- [LICENSE.txt](LICENSE.txt): Apache License 2.0 text
